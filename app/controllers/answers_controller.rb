@@ -1,4 +1,5 @@
 class AnswersController < ApplicationController
+
   def answer
     @question = params[:question].downcase
     @answer = "I don't care, get dressed and go to work!"
